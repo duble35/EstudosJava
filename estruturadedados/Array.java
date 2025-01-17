@@ -3,6 +3,7 @@ public class Array{
     public static void main(String[] args){
         arrayNumeros();
         arrayString();
+        uf();
     }
 
 
@@ -27,6 +28,15 @@ public class Array{
         escritor[4] = "Texto 05";
         for(int i = 0; i<escritor.length;i++){
             System.out.println(escritor[i]);
+        }
+    }
+
+    /*Aplicando arrays na pratica */
+
+    private static void uf(){
+        String[] ufs = { "AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO" };
+        for(int i = 0;i<ufs.length;i++){
+            System.out.println(ufs[i]);
         }
     }
 
